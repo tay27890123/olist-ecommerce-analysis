@@ -1,0 +1,22 @@
+# Database 
+database/olist.db
+
+# Raw data
+data/raw/*
+!data/raw/.gitkeep
+
+# Python 
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
