@@ -3,7 +3,8 @@
 -- Author: Tay Tze Ping
 -- University of Malaya — Data Analytics Project
 --
--- Purpose: Define all table structures BEFORE data is loaded.
+-- Purpose: Define all table structures BEFORE data is loaded
+-- Use PRIMARY KEY and FOREIGN KEY constraints to ensure data integrity.
 -- Executed by notebook 01 via sqlite3.executescript().
 -- pandas then uses if_exists='append' to insert rows only.
 -- ============================================================
