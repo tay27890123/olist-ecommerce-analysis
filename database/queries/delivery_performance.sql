@@ -1,5 +1,4 @@
--- Average delivery time and early/late performance
--- Notebook: 02_sql_exploration, 03_data_cleaning
+
 SELECT
     order_status,
     COUNT(order_id)    AS order_count,
@@ -15,4 +14,4 @@ FROM orders
 WHERE order_delivered_customer_date IS NOT NULL
   AND order_purchase_timestamp IS NOT NULL
 GROUP BY order_status
-ORDER BY order_count DESC;
+ORDER BY order_count DESC

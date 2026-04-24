@@ -1,5 +1,4 @@
--- Payment method breakdown: volume, value, instalment behaviour
--- Notebook: 02_sql_exploration, 05_business_insights
+
 SELECT
     payment_type,
     COUNT(*)                            AS transaction_count,
@@ -9,4 +8,4 @@ SELECT
 FROM order_payments
 WHERE payment_type != 'not_defined'
 GROUP BY payment_type
-ORDER BY transaction_count DESC;
+ORDER BY transaction_count DESC

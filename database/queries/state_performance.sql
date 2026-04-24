@@ -1,6 +1,4 @@
--- Revenue, order volume and review score by customer state
--- 4-table JOIN: orders + customers + payments + reviews
--- Notebook: 02_sql_exploration, 05_business_insights
+
 SELECT
     c.customer_state                                              AS state,
     COUNT(DISTINCT o.order_id)                                    AS total_orders,
@@ -14,4 +12,4 @@ LEFT JOIN order_reviews r ON o.order_id    = r.order_id
 WHERE o.order_status = 'delivered'
 GROUP BY state
 ORDER BY total_revenue DESC
-LIMIT 15;
+LIMIT 15
