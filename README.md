@@ -8,10 +8,14 @@ End-to-end data analysis project simulating a real analyst workflow:
 raw CSV files → relational database (schema-first) → SQL queries → Python visualizations → business insights.
 
 ## Key Findings
-- Customer review scores drop from ~4.3 to ~3.1 when delivery exceeds 20 days
-- Top 3 revenue categories account for over 40% of total sales
-- Credit card instalments dominate payments, suggesting price-sensitive buyers
-- Northern states (AM, RR, AP) show longest delivery times and lowest review scores
+- Review scores drop from 4.3 → 3.1 when delivery exceeds 20 days
+- Top 3 categories drive 40%+ of total revenue
+- Northern states show longest delivery times and lowest satisfaction
+
+## Business Recommendations
+- Regional fulfilment investment in AM, RR, AP states
+- Instalment promotions to increase average order value
+- Logistics priority for orders exceeding 14-day delivery window
 
 ## How to Run
 1. Download dataset from Kaggle link above, place all 8 CSVs in `data/raw/`
