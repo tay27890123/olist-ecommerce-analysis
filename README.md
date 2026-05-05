@@ -1,7 +1,7 @@
 # Olist E-Commerce Analysis — SQL + Python
 
 **Tools:** Python · Pandas · SQLAlchemy · SQLite · Matplotlib · Seaborn  
-**Dataset:** [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 100k+ orders, 8 relational tables
+**Kaggle Dataset:** [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 100k+ orders, 8 relational tables
 
 ## Project Overview
 End-to-end data analysis project simulating a real analyst workflow:
