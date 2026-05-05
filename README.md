@@ -17,6 +17,11 @@ raw CSV files → relational database (schema-first) → SQL queries → Python 
 - Instalment promotions to increase average order value
 - Logistics priority for orders exceeding 14-day delivery window
 
+## Key Findings 2.0 - Customer Expectation-Disconfirmatoion
+- Amazonas has the longest average delivery time but still achieves a strong average review score and higher than faster-delivery states like SP and RJ.
+- This aligns with the Expectation-Disconfirmation Theory: customers in remote areas have lower speed expectations(expect delivery days longer in row dataset), so relative performance matters more than absolute speed
+Recommendation: Olist should segment logistics KPIs by region instead of using a single national target, as geography significantly limits delivery speed in some states.
+
 ## How to Run
 1. Download dataset from Kaggle link above, place all 8 CSVs in `data/raw/`
 2. `pip install -r requirements.txt`
